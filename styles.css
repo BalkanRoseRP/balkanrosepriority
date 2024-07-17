@@ -1,0 +1,202 @@
+/* styles.css */
+
+body {
+    font-family: 'Poppins', sans-serif;                  
+    line-height: 1.0;
+    margin: 50;
+    padding: 0;
+    background-color: #ffffff;
+    background-size: cover; /* ili contain, zavisno od efekta koji želite */
+    background-image: url('aranjo.jpg');
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #5B94FB;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header h1 {
+    margin: 5;
+    text-align: left;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+main {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.content {
+    background-color: #dddddd;
+    padding: 25px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.content h2 {
+    border-bottom: 2px solid #333333;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.slika {
+    width: 300px; /* Primjer širine kontejnera */
+    height: 300px; /* Primjer visine kontejnera */
+    margin-top: 50px; /* Pomjeranje slike prema gore za 20 piksela */
+    margin-left: 750px; /* Pomjeranje slike u desno za 50 piksela */
+}
+
+.image-container img {
+    width: 100%; /* Da bi slika popunila kontejner */
+    height: 100%; /* Da bi slika popunila kontejner */
+    display: block; /* Da bi se eliminisao prostor za liniju ispod slike */
+}
+
+/*PAYPAL*/
+/* Stilizacija forme za unos iznosa */
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    background-color: #dddddd;
+    text-align: center;
+    margin-left: 150px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #0070ba;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #00578a;
+}
+
+/* Stilizacija PayPal gumba */
+#paypal-button-container {
+    margin-top: 20px;
+    text-align: left;
+}
+
+/*PAYPAL*/
+
+
+
+.pict {
+    width: 50px; /* Primjer širine kontejnera */
+    height: 50px; /* Primjer visine kontejnera */
+    margin-top: 50px; /* Pomjeranje slike prema gore za 20 piksela */
+    margin-left: 500px; /* Pomjeranje slike u desno za 50 piksela */
+}
+
+
+
+
+body {
+    color: #000000; /* Crna boja teksta */
+}
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text and Image Example</title>
+    <style>
+        .container {
+            display: flex;
+            align-items: center;
+        }
+        .container img {
+            width: 100px;
+            height: auto;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="rose.jpg" alt="Description">
+        <p>Custom Organizacije.</p>
+    </div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Increase Text Size Example</title>
+    <style>
+        .large-text {
+            font-size: 2em; /* 2 puta veće od trenutne veličine fonta */
+        }
+    </style>
+</head>
+<body>
+    <p>This is normal text and this is <span class="large-text">larger text</span>.</p>
+</body>
+</html>
+
+
+
+
+
+
+<p>This is a <span style="color: red;">red</span> word and this is a <span style="color: blue;">cyan</span> word.</p>
