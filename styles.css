@@ -26,6 +26,42 @@ header h1 {
     text-align: left;
 }
 
+
+
+
+nav {
+    background-color: #1f58dd; /* Pozadina navigacije */
+    padding: 1rem; /* Razmak unutar navigacije */
+}
+
+nav ul {
+    list-style: none; /* Uklanjanje oznaka liste */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: left;
+}
+
+nav ul li {
+    margin: 0 1rem; /* Razmak između stavki */
+}
+
+nav .nav-link {
+    color: #fff; /* Bijela boja teksta */
+    text-decoration: none; /* Uklanjanje podcrtavanja */
+    transition: color 0.3s ease, transform 0.3s ease; /* Glatki prijelaz za boju i transformaciju */
+}
+
+nav .nav-link:hover {
+    color: #6ac3ff; /* Promjena boje teksta prilikom hover-a */
+    transform: scale(1.1); /* Lagano povećanje prilikom hover-a */
+}
+
+
+
+
+
+
 header nav ul {
     list-style-type: none;
     padding: 0;
